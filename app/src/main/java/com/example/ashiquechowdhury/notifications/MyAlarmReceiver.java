@@ -9,7 +9,6 @@ import android.content.Intent;
 
 public class MyAlarmReceiver extends BroadCastReciever{
     public static final int REQUEST_CODE = 12345;
-    public static final String ACTION = "nyc.c4q.notificationdemo.alarm";
 
     @Override
     public void onReceive(Context context, Intent intent){
